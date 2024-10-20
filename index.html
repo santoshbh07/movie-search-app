@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search movies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Search</h1>
+        <div class="input-container">
+            <input type="text" id="title-input" placeholder="Enter your movie here....">
+            <button id="get-movie">Search</button>
+        </div>
+        <p id ="error" class="hidden" style="color: red;"></p>
+        <div class="movie-details hidden" id="movie-details-container">
+            <div id="poster-div">
+                
+            </div>
+            <div class="details-div">
+                <h2 id="title"></h2>
+                <p id="year"></p>
+                <p id="rated"></p>
+                <p id="runtime"></p>
+                <p id="genre"></p>
+                <p id="director"></p>
+                <p id="actors"></p>
+                <p id="boxOffice"></p>
+                <p id="ratings"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
